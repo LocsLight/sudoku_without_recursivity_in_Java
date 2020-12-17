@@ -73,8 +73,9 @@ public class Main {
 
     public static void main(String[] args) {
         RemplirGrille(Grille);
-        VerifLignes(Grille);
-        VerifColonnes(Grille);
+        System.out.println("VerifLignes : "+VerifLignes(Grille));
+        System.out.println("VerifColonnes : "+VerifColonnes(Grille));
+        System.out.println("VerifSousGrilles : ");
     }
 
 }
